@@ -1,8 +1,12 @@
+/** BODY CSS **/
+
 body {
     background: lightgrey;
     color: #777777;
     font-family: Georgia, Times, "Times New Roman", serif;
 }
+
+/** HEADER **/
 
 #header {
     position: fixed;
@@ -13,6 +17,48 @@ body {
     left: 0px;
 }
 
+/** NAV LINKS **/
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+  }
+
+  a {
+    color: #777777;
+    }
+  li {
+      display: inline;
+      padding: 10px;
+      top: 0px;
+      font-size: larger;
+      border: solid;
+      border-radius: 25px;
+  }
+
+  li:hover {
+      background-color: lightblue;
+  }
+
+nav {
+    float: right;
+    margin-top: 35px;
+    margin-right: 200px;
+}
+
+h1 {
+    float: left;
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: 200px;
+    border-style: solid;
+    border-width: medium;
+    border-radius: 25px;
+}
+
+/** MAIN CONTENT **/
+
 #mainbox {
     background: #ffffff;
     margin: 200px;
@@ -22,47 +68,11 @@ body {
     text-align: center;
 }
 
-#footer {   
-    position: fixed;
-    background: #666666;
-    height: 50px;
-    bottom: 0px;
-    left: 0px;
-    width: 100%;
-}
-
 h2 {
     text-align: center;
 }
 
-h4 {
-    text-align: center;
-}
-
-h1 {
-    float: left;
-    padding-top: 20px;
-    padding-left: 200px;
-}
-
-ul {
-    list-style-type: none;
-    margin: 10px;
-    padding: 0;
-  }
-
-  li {
-      display: inline;
-      padding: 10px;
-      top: 0px;
-      font-size: larger;
-  }
-
-nav {
-    float: right;
-    padding-top: 35px;
-    padding-right: 200px;
-}
+/** FORM **/ 
 
 input[type=text] {
     width: 50%;
@@ -87,14 +97,14 @@ input[type=text] {
   }
 
     textarea {
-            width: 50%;
-            padding: 12px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            box-sizing: border-box;
-            margin-top: 6px;
-            margin-bottom: 16px;
-            resize: vertical;
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
     }
 
     #comment {
@@ -109,3 +119,22 @@ input[type=text] {
         border: none;
         border-radius: 4px;
     }
+
+    #submit:hover {
+        background-color: lightblue;
+    }
+
+/** FOOTER **/
+
+#footer {   
+    position: fixed;
+    background: #666666;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+h4 {
+    text-align: center;
+}

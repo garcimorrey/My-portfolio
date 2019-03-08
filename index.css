@@ -1,28 +1,12 @@
+/** BODY CSS **/
+
 body {
     background: lightgrey;
     color: #777777;
     font-family: Georgia, Times, "Times New Roman", serif;
 }
 
-img {
-    position: relative;
-    width: 200px;
-    height: auto;
-    float: left;
-    border-radius: 50%;
-    left: 5px;
-    top: 30px;
-}
-
-p {
-    text-align: center;
-}
-
-#about {
-position: relative;
-top: 20px;
-left: 30px;
-}
+/** HEADER + NAV CSS **/
 
 #header {
     position: fixed;
@@ -34,6 +18,49 @@ left: 30px;
     height: 100px;
 }
 
+/** NAV LINKS **/
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+  }
+
+  a {
+    color: #777777;
+    }
+
+  li {
+      display: inline;
+      padding: 10px;
+      top: 0px;
+      font-size: larger;
+      border: solid;
+      border-radius: 25px;
+  }
+
+  li:hover {
+    background-color: lightblue;
+}
+
+nav {
+    float: right;
+    margin-top: 35px;
+    margin-right: 200px;
+}
+
+h1 {
+    float: left;
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: 200px;
+    border-style: solid;
+    border-width: medium;
+    border-radius: 25px;
+}
+
+/** MAIN CONTENT **/
+
 #mainbox {
     position: relative;
     background: #ffffff;
@@ -41,6 +68,32 @@ left: 30px;
     height: 500px;
     border: solid #dddddd;
 }
+
+/** IMAGE RESIZE/POSITIONNING **/
+
+img {
+    position: relative;
+    width: 200px;
+    height: auto;
+    float: left;
+    border-radius: 50%;
+    left: 50px;
+    top: 50px;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 280px;
+    margin-right: 10px;
+}
+
+#about {
+position: relative;
+left: 20px;
+}
+
+/** FOOTER **/
 
 #footer {   
     position: fixed;
@@ -53,29 +106,4 @@ left: 30px;
 
 h4 {
     text-align: center;
-}
-
-ul {
-    list-style-type: none;
-    margin: 10px;
-    padding: 0;
-  }
-
-  li {
-      display: inline;
-      padding: 10px;
-      top: 0px;
-      font-size: larger;
-  }
-
-nav {
-    float: right;
-    padding-top: 35px;
-    padding-right: 200px;
-}
-
-h1 {
-    float: left;
-    padding-top: 20px;
-    padding-left: 200px;
 }

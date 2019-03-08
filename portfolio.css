@@ -1,8 +1,12 @@
+/** BODY CSS **/
+
 body {
     background: lightgrey;
     color: #777777;
     font-family: Georgia, Times, "Times New Roman", serif;
 }
+
+/** HEADER + NAV LINK CSS **/
 
 #header {
     position: fixed;
@@ -14,6 +18,49 @@ body {
     z-index: 2;
 }
 
+/** NAV LINKS **/
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+  }
+
+  a {
+    color: #777777;
+    }
+
+  li {
+    display: inline;
+    padding: 10px;
+    top: 0px;
+    font-size: larger;
+    border: solid;
+    border-radius: 25px;
+  }
+
+  li:hover {
+    background-color: lightblue;
+}
+
+nav {
+    float: right;
+    margin-top: 35px;
+    margin-right: 200px;
+}
+
+h1 {
+    float: left;
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: 200px;
+    border-style: solid;
+    border-width: medium;
+    border-radius: 25px;
+}
+
+/** MAIN CONTENT **/
+
 #mainbox {
     position: relative;
     background: #ffffff;
@@ -23,44 +70,18 @@ body {
     z-index: 1;
 }
 
-#footer {   
-    position: fixed;
-    background: #666666;
-    height: 50px;
-    bottom: 0px;
-    left: 0px;
-    width: 100%;
-    z-index: 2;
+#portfolio {
+margin-left: 20px;
 }
 
-h4 {
-    text-align: center;
+/** Image RESIZE **/
+
+img {
+    width: 75%;
+    padding: 10px;
 }
 
-ul {
-    list-style-type: none;
-    margin: 10px;
-    padding: 0;
-  }
-
-  li {
-      display: inline;
-      padding: 10px;
-      top: 0px;
-      font-size: larger;
-  }
-
-nav {
-    float: right;
-    padding-top: 35px;
-    padding-right: 200px;
-}
-
-h1 {
-    float: left;
-    padding-top: 20px;
-    padding-left: 200px;
-}
+/** GRID **/
 
 .grid-container {
     background-color: white;
@@ -77,9 +98,20 @@ h1 {
     padding: 20px;
   }
 
-  img {
-    width: 75%;
-    padding: 10px;
+/** FOOTER **/
+
+#footer {   
+    position: fixed;
+    background: #666666;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 2;
+}
+
+h4 {
+    text-align: center;
 }
 
 
